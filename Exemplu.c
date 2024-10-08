@@ -16,7 +16,7 @@ int proc_c(void)
 {
     char c;
     c = get_ch();
-    if(c == '1')
+    if(c == 'x')
         return 1;
     return 0;
 }
